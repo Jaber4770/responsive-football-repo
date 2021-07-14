@@ -1,5 +1,10 @@
+/* common css style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 700;;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -11,15 +16,15 @@ body{
 }
 .half-width{
     width:50%;
+    margin-top:135px;
+    margin-bottom: 114px;
+}
+.half-width h1{
+    color:white;
+    font-size: 60px;
 }
 .header-des{
     padding-left:156px;
-}
-h1{
-    color:white;
-    font-size: 64px;
-    font-weight: 700;;
-    font-family: 'Poppins', sans-serif;
 }
 .btn a, i{
     color:white;
@@ -40,9 +45,9 @@ h1{
 }
 /* header style end */
 
-/* section style start */
+/* Player section style start */
 
-.section-bg-color{
+.main-bg-color{
     background-color:#FFFFFF;
     margin-top: 70px;
 }
@@ -62,3 +67,27 @@ h1{
 .player img{
     width:100%;
 }
+ 
+/* player section style end  */
+
+/* Highligh section style started */
+
+.highlight-section{
+    display: flex;
+    margin-top: 165px;;
+}
+.highlight-des{
+    width:40%;
+    margin-right:5%;
+}
+.highlight-description{
+    margin-left:10%;
+}
+.highlight-des h1{
+    font-size: 40px;
+}
+.highlight-des img{
+    width: 100%;
+}
+
+/* highlight section end  */
