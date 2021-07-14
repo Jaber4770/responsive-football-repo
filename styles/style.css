@@ -42,7 +42,7 @@ h1{
     background-color: #fc005c;
 }
 .half-width img{
-    width:100%;
+    width:90%;
 }
 /* header style end */
 
@@ -93,6 +93,7 @@ h1{
 
 /* highlight section end  */
 
+ /* footer start  */
 .footer{
     margin-top:158px;
 }
@@ -117,3 +118,4 @@ h1{
     display: flex;
     justify-content: center;
 }
+ /* footer end  */
