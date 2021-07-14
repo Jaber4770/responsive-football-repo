@@ -91,3 +91,13 @@ h1{
 }
 
 /* highlight section end  */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top:158px;
+}
+.footer img{
+    width: 483.87px;
+    height: 110px;
+}
