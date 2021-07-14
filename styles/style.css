@@ -18,6 +18,7 @@ h1{
     width:50%;
     margin-top:135px;
     margin-bottom: 114px;
+    overflow: hidden;
 }
 .half-width h1{
     color:white;
@@ -43,6 +44,10 @@ h1{
 }
 .half-width img{
     width:90%;
+    transition: 1s;
+}
+.half-width:hover img{
+    transform: scale(1.5);
 }
 /* header style end */
 
