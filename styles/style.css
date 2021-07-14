@@ -98,6 +98,12 @@ h1{
 
 /* highlight section end  */
 
+.champion{
+    margin-left:5%;
+}
+.champion-img{
+    margin-left:10%;
+}
  /* footer start  */
 .footer{
     margin-top:158px;
