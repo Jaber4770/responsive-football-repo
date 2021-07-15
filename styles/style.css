@@ -12,7 +12,10 @@ h1{
 
 .header-bg-color{
    background-color: #2D25A0;
-   display: flex;
+
+}
+.half-width-wrapper{
+    display: flex;
 }
 .half-width{
     width:50%;
@@ -27,12 +30,15 @@ h1{
 .header-des{
     padding-left:156px;
 }
+.btn{
+    transform: rotate(360deg);
+}
 .btn a{
     color:white;
     background: #E02C6D;
     padding:10px 24px;
     text-decoration: none;
-    transition: .5s;
+    transition: 1s;
 }.btn i{
     color:white;
 }
@@ -139,10 +145,68 @@ h1{
     .container{
         width:100%;
     }
-    .players{
-        grid-template-columns: repeat(1, 1fr);
+    .header-bg-color{
+        padding-top: 112px;
     }
-    .player{
+    .players, .half-width-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .players{
+        margin-left:10%;
+    }
+    .player, .half-width{
         flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .media-width{
+        width:100%;
+    }
+    .header-des{
+        width: 60%;
+        padding-left: 0px;
+    }
+    .half-width-wrapper{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .half-width h1{
+        font-size: 36px;
+    }
+    .highlight-des{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+    }
+    .highlight-section{
+        flex-direction: column;
+        margin-top: 29px;
+    }
+    .highlight-des img{
+        width: 100%;
+        margin-top: 29px;
+        margin-left: 10%;
+    }
+    .champion-img img{
+        width: 100%;
+        margin-top: 29px;
+        margin-left: 0%;
+    }
+    .footer{
+        margin-top: 55px;
+        margin-bottom: 187px;
+    }
+    .footer-img img{
+        width:100%;
+    }
+}
+@media only screen and(min-width:688px) and (max-width:992) {
+    .container{
+        width:100%;
     }
 }
