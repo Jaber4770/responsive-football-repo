@@ -205,8 +205,21 @@ h1{
         width:100%;
     }
 }
-@media only screen and(min-width:688px) and (max-width:992) {
+@media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width:100%;
     }
+    .half-width img{
+       padding-top:100px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+
 }
